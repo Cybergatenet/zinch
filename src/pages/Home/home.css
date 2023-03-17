@@ -1,0 +1,63 @@
+.section{
+    background: url("../../assets/images/instagram-editing-photography-2-1024x682.jpg"); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height:auto;
+}
+
+button{
+    background: orange !important;
+}
+.nav-link:hover{
+    color: orange !important;
+}
+form{
+    width: auto;
+    height: auto;
+    background: black;
+    border-radius: 5%;
+    margin-top: 3em;
+    /* position: absolute; */
+}
+
+hr{
+    color: orange;
+}
+
+img{
+    /* position: relative; */
+    width: auto;
+    height: 8vh;
+}
+
+
+.shape{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 5px;
+}
+
+.shape img{
+    width: 50%;
+    height: 50vh;
+}
+
+.shape2{
+    width: 30vw;
+    height: 50vh;
+    border-radius: 5px;
+}
+
+.shape2 img{
+    width: 30vw;
+    height: 50vh;
+    padding: 3em;
+}
+
+footer{
+    background: white;
+}
+.cookies{
+    width: fit-content;
+    margin-inline: auto;
+}
