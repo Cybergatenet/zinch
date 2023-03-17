@@ -4,6 +4,9 @@ import Footer from '../../components/Footer/Footer'
 import Navbar from '../../components/Navbar/Navbar'
 import './home.css'
 
+// import images
+import img1 from '../../assets/images/IMG-20220902-WA0116.jpg'
+
 function Home() {
 	useEffect(() => {
 		// Get the modal
@@ -81,12 +84,11 @@ function Home() {
 		  <section className='section'>
 			  <div className="blog d-lg-flex justify-content-around">
 				  <div className="font-weight-bold text-white">
-					  <p className="display-3 mt-5"><b>Web Design &</b></p>
-					  <p className="display-3"><b style={{ color: "orange" }}>Development</b></p>
-					  <p className="display-5 "><b>Course</b> </p>
-					  <p>Web Design is a specialisation of the design stream. <br /> They also use HTML, CSS, WYSIWYG editing software, <br /> mark up validations etc., <br /> to create design elements.
-					  </p>
-					  <button className="btn text-white my-3"><b>JOIN US</b></button>
+					  <p className="display-3 mt-5"><b>Fish Farming </b></p>
+					  <p className="display-3"><b style={{ color: "orange" }}>Sales &</b></p>
+					  <p className="display-5 "><b>Distribution</b> </p>
+					  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Pariatur iusto provident, eum velit perspiciatis laborum <br /> porro odio voluptas quasi inventore saepe tempore, <br /> molestias quidem ut neque quas, expedita aliquam sequi?</p>
+					  <button className="btn text-white my-3"><b>Place Order</b></button>
 				  </div>
 				  <div>
 					  <form>
@@ -128,15 +130,15 @@ function Home() {
         <section>
             <div className="container d-lg-flex">
                 <div className="shape d-lg-flex p-4 my-4 border shadow">
-                    <img src="images/IMG-20220902-WA0116.jpg" />
+                    <img src={img1} />
                     
-                    <div className="px-3"><p className="font-weight-bold h3">Get the Best <br /> classNameical Design</p>
+                    <div className="px-3"><p className="font-weight-bold h3">Get the Best <br /> When it comes to fish farming</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Pariatur iusto provident, eum velit perspiciatis laborum <br /> porro odio voluptas quasi inventore saepe tempore, <br /> molestias quidem ut neque quas, expedita aliquam sequi?</p>
                         <button className="btn text-white h4">View more</button>
                     </div>
                 </div>
                 <div className="shape2 m-lg-5 border shadow">
-                    <img src="images/IMG-20220902-WA0116.jpg" />
+                    <img src={img1}/>
                 </div>
             </div>
         </section>
@@ -153,11 +155,8 @@ function Home() {
             <div>
                 <ul className=" list-unstyled text-center d-lg-flex justify-content-center pt-3">
                     <li><Link  className="nav-link text-warning font-weight-bold"        to="#">Learner</Link></li>
-                    <li><Link  className="nav-link text-warning font-weight-bold"        to="#">Editor</Link></li>
-                    <li><Link  className="nav-link text-warning font-weight-bold"        to="#">Writer</Link></li>
-                    <li><Link  className="nav-link text-warning font-weight-bold"        to="#">Builder</Link></li>
-                    <li><Link  className="nav-link text-warning font-weight-bold"        to="#">Developer</Link></li>
-                    <li><Link  className="nav-link text-warning font-weight-bold"        to="#">Designer</Link></li>
+                    <li><Link  className="nav-link text-warning font-weight-bold"        to="#">Farmer</Link></li>
+                    <li><Link  className="nav-link text-warning font-weight-bold"        to="#">Buyer</Link></li>
                 </ul>
             </div>
         </div>
@@ -182,7 +181,7 @@ function Home() {
                     </div>
 
                     <div className="ml-3 text-dark">
-                        <h5>Editor</h5>
+                        <h5>Farmer</h5>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, velit!</p>
                     </div>
                 </div>
@@ -192,50 +191,19 @@ function Home() {
                     </div>
 
                     <div className="ml-3 text-dark">
-                        <h5>Writer</h5>
+                        <h5>Buyer</h5>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, velit!</p>
                     </div>
-                </div>
-                <div className="col-md-4 my-4 d-flex">
-                    <div>
-                        <img src="./images/icon-fully-customizable.svg" />
-                    </div>
-
-                    <div className="ml-3 text-dark">
-                        <h5>Builder</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, velit!</p>
-                    </div>
-                </div>
-                <div className="col-md-4 my-4 d-flex">
-                    <div>
-                        <img src="./images/icon-brand-recognition.svg" />
-                    </div>
-
-                    <div className="ml-3 text-dark">
-                        <h5>Developer</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, velit!</p>
-                    </div>
-                </div>
-                <div className="col-md-4 my-4 d-flex">
-                    <div>
-                        <img src="./images/icon-fully-customizable.svg" />
-                    </div>
-
-                    <div className="ml-3 text-dark">
-                        <h5>Designer</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, velit!</p>
-                    </div>
-                </div>
-                
+                </div>       
             </div>
         </div>
     </section>
 
     
-    <section>
+    {/* <section>
         <div className="Project bg-info p-5 text-white">
             <div className="container">
-                <p className="h3 py-3">Would You Like To Start A Project With Us?</p>
+                <p className="h3 py-3">Would You Get Our Farm Produces?</p>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora eos obcaecati optio in nihil est <br /> perferendis soluta assumenda qui voluptates.</p>
             </div>
         </div>
@@ -244,7 +212,7 @@ function Home() {
             <div className="bg-dark text-light p-5 d-lg-flex justify-content-between">
                 <div className="col-md-3">
                     <div className="logo">
-                        <div className="h3 text-warning">PraRoz <span className="text-white">&reg;</span></div>
+                        <div className="h3 text-warning">Zinch <span className="text-white">&reg;</span></div>
                     </div>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, asperiores.</p>
                     <div className="my-4 d-flex">
@@ -288,14 +256,13 @@ function Home() {
                 </div>
             </div>
         </div>
-    </section>
-
-    <footer>
+    </section> */}
+	<footer>
         <div className="container text-center my-3">
             <p className="text-center h6 text-info p-3">Get new posts by Email</p>
             <input className="text-center " type="text" placeholder="Your Email" />
         </div>
-        <div className="cookies bg-info text-white text-center px-3">
+        <div className=" cookies bg-info text-white text-center px-3">
             <p>We use cookies on our website to give you <br /> the most relevant experience by <br /> remembering your preferences and <br /> repeat visits. By clicking "Accept", you <br /> consent to the use of all the cookies.</p>
         </div>
         <div className="text-center my-5">
