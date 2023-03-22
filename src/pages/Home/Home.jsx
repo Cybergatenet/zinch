@@ -7,6 +7,7 @@ import './home.css'
 // import images
 import img1 from '../../assets/images/mushroom.JPG'
 import img2 from '../../assets/images/banana.JPG'
+import Sliders from '../../components/Sliders/Sliders'
 
 function Home() {
 	useEffect(() => {
@@ -82,6 +83,13 @@ function Home() {
 				  </div>
 			  </div>
 		  </section>
+          {/* react siders here */}
+            <section className="wrapper align-center" style={{ height: "100vh" }}>
+                <Sliders />
+            </section>
+
+          {/* react siders here */}
+
 		  <section className='section'>
 			  <div className="blog d-lg-flex justify-content-around">
 				  <div className="font-weight-bold text-white">
