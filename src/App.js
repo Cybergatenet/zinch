@@ -5,7 +5,7 @@ import {
   Route,
 } from "react-router-dom";
 import './assets/css/bootstrap.min.css'
-import './App.css';
+// import './App.css';
 import Home from './pages/Home/Home';
 import ErrorPage from './pages/Error/ErrorPage';
 import Slide from './components/Sliders/Slide'
@@ -17,11 +17,11 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/slide" element={<Slide />} />
+        {/* <Route path="/login" element={<Login />} />
+        <Route path="/account" element={<CreateAccount />} /> */}
+
         {/* 
         <Route path="/contact" element={<Contact />} />
-        <Route path="/donate" element={<Donate />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/account" element={<CreateAccount />} />
         <Route path="/admin" element={<Admin/>} />
 
         <Route path="/dashboard" element={<Dashboard />} />

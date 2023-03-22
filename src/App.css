@@ -960,13 +960,20 @@
 /* Banner */
 
 	#banner {
+		min-height: fit-content;
+		max-height: max-content;
 		background: url("./assets/images/overlay.png"), url("./assets/images/banner.jpg");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
 		color: #ffffff;
-		padding: 16em 0em 14em;
+		/* padding: 16em 0em 14em; */
 		text-align: center;
+	}
+	@media(min-width: 768px){
+		#banner{
+			height: 570px;
+		}
 	}
 
 		#banner h2 {

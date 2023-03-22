@@ -5,7 +5,8 @@ import Navbar from '../../components/Navbar/Navbar'
 import './home.css'
 
 // import images
-import img1 from '../../assets/images/IMG-20220902-WA0116.jpg'
+import img1 from '../../assets/images/mushroom.JPG'
+import img2 from '../../assets/images/banana.JPG'
 
 function Home() {
 	useEffect(() => {
@@ -112,10 +113,10 @@ function Home() {
 								  </p>
 								  <p>Log in with</p>
 								  <div className="d-flex justify-content-around links">
-									  <Link to=""><img src="images/fb.png" /></Link>
-									  <Link to=""><img src="images/twt.png" /></Link>
-									  <Link to=""><img src="images/gg.png" /></Link>
-									  <Link to=""><img src="images/www.png" /></Link>
+									  <Link to="#"><img src={"../../assets/images/fb.png"} alt={'fb.png'} /></Link>
+									  <Link to="#"><img src={"../../assets/images/twt.png"} alt={'twt.png'} /></Link>
+									  <Link to="#"><img src={"../../assets/images/gg.png"} alt={'gg'} /></Link>
+									  <Link to="#"><img src="../../assets/images/www.png" alt={'www'} /></Link>
 								  </div>
 							  </div>
 						  </div>
@@ -130,7 +131,7 @@ function Home() {
         <section>
             <div className="container d-lg-flex">
                 <div className="shape d-lg-flex p-4 my-4 border shadow">
-                    <img src={img1} />
+                    <img className='img' src={img1} alt={img1} />
                     
                     <div className="px-3"><p className="font-weight-bold h3">Get the Best <br /> When it comes to fish farming</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Pariatur iusto provident, eum velit perspiciatis laborum <br /> porro odio voluptas quasi inventore saepe tempore, <br /> molestias quidem ut neque quas, expedita aliquam sequi?</p>
@@ -138,7 +139,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="shape2 m-lg-5 border shadow">
-                    <img src={img1}/>
+                    <img className='img' src={img2} alt={img2} />
                 </div>
             </div>
         </section>

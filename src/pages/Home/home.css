@@ -4,12 +4,8 @@
     background-size: cover; 
     height:auto;
 }
-
-button{
+.button{
     background: orange !important;
-}
-.nav-link:hover{
-    color: orange !important;
 }
 form{
     width: auto;
@@ -19,41 +15,30 @@ form{
     margin-top: 3em;
     /* position: absolute; */
 }
-
-hr{
-    color: orange;
-}
-
 img{
     /* position: relative; */
     width: auto;
     height: 8vh;
 }
-
-
 .shape{
     width: fit-content;
     height: fit-content;
     border-radius: 5px;
 }
-
 .shape img{
     width: 50%;
     height: 50vh;
 }
-
 .shape2{
     width: 30vw;
     height: 50vh;
     border-radius: 5px;
 }
-
 .shape2 img{
     width: 30vw;
     height: 50vh;
     padding: 3em;
 }
-
 footer{
     background: white;
 }
