@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Navbar() {
   return (
     <header id="header">
-        <h1><Link href="index.php">Zinch</Link></h1>
+        <h1><Link to={"/"}>Zinch</Link></h1>
         <nav id="nav">
             <ul>
                 <li><Link to={'/'}><span className="glyphicon glyphicon-home"></span> Home</Link></li>

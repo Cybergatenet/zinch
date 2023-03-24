@@ -8,17 +8,16 @@
     background: orange !important;
 }
 form{
-    width: auto;
-    height: auto;
-    background: black;
+    padding: 20px;
+    /* width: auto; */
+    /* height: auto; */
+    /* background: black; */
     border-radius: 5%;
     margin-top: 3em;
-    /* position: absolute; */
 }
 img{
     /* position: relative; */
     width: auto;
-    height: 8vh;
 }
 .shape{
     width: fit-content;

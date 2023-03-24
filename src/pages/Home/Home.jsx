@@ -69,15 +69,15 @@ function Home() {
 				  </header>
 				  <div className="row 200%">
 					  <section className="4u 12u$(small)">
-						  <i className="icon big rounded fa-clock-o"></i>
+						  <i className="fa fa-clock rounded fa-5x"></i>
 						  <p>Digital Market</p>
 					  </section>
 					  <section className="4u 12u$(small)">
-						  <i className="icon big rounded fa-comments"></i>
+						  <i className="fa rounded fa-comments fa-5x"></i>
 						  <p>Our Blog</p>
 					  </section>
 					  <section className="4u$ 12u$(small)">
-						  <i className="icon big rounded fa-user"></i>
+						  <i className="fa rounded fa-user fa-5x"></i>
 						  <p>Register with us</p>
 					  </section>
 				  </div>
@@ -91,16 +91,16 @@ function Home() {
           {/* react siders here */}
 
 		  <section className='section'>
-			  <div className="blog d-lg-flex justify-content-around">
-				  <div className="font-weight-bold text-white">
+			  <div className="blog row">
+				  <div className="font-weight-bold text-white col-md-6">
 					  <p className="display-3 mt-5"><b>Fish Farming </b></p>
 					  <p className="display-3"><b style={{ color: "orange" }}>Sales &</b></p>
 					  <p className="display-5 "><b>Distribution</b> </p>
-					  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Pariatur iusto provident, eum velit perspiciatis laborum <br /> porro odio voluptas quasi inventore saepe tempore, <br /> molestias quidem ut neque quas, expedita aliquam sequi?</p>
-					  <button className="btn text-white my-3"><b>Place Order</b></button>
+					  <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Pariatur iusto provident, eum velit perspiciatis laborum <br /> porro odio voluptas quasi inventore saepe tempore, <br /> molestias quidem ut neque quas, expedita aliquam sequi?</p>
+					  <button className="button btn text-white my-3"><b>Place Order</b></button>
 				  </div>
-				  <div>
-					  <form>
+				  <div className='col-md-4'>
+					  <form className='form-group' style={{ background: "black" }}>
 						  <div className="loginform p-3 text-center">
 							  <div>
 								  <p className="h3 px-5 text-warning font-weight-bold">Login Here</p>
@@ -112,7 +112,7 @@ function Home() {
 							  <input style={{ background: "transparent", border: "1px solid orange", color: "white" }} type="password" placeholder="Enter password Here" />
 							  {/* <hr> */}
 
-							  <p><button className="px-5 btn text-center font-weight-bold text-white ">LOGIN</button></p>
+							  <p><button className="button px-5 btn text-center font-weight-bold text-white ">LOGIN</button></p>
 
 							  <div className="text-center text-white">
 								  <p>Don't have an account?</p>
@@ -153,7 +153,7 @@ function Home() {
         </section>
     
 
-    <section>
+    {/* <section>
         <div  className="bg-white my-5">
             <div  className="text-center text-info">
                 <p  className="h3"><b>LEARN AND LEAD</b></p>
@@ -169,9 +169,9 @@ function Home() {
                 </ul>
             </div>
         </div>
-    </section>
+    </section> */}
 
-    <section>
+    {/* <section>
         <div className="container">
             <div className="row">
                 <div className="col-md-4 my-4 d-flex">
@@ -206,7 +206,7 @@ function Home() {
                 </div>       
             </div>
         </div>
-    </section>
+    </section> */}
 
     
     {/* <section>
@@ -266,7 +266,7 @@ function Home() {
             </div>
         </div>
     </section> */}
-	<footer>
+	{/* <footer>
         <div className="container text-center my-3">
             <p className="text-center h6 text-info p-3">Get new posts by Email</p>
             <input className="text-center " type="text" placeholder="Your Email" />
@@ -279,7 +279,7 @@ function Home() {
             <button className="text-white btn ">Reject</button>
             <button className="text-white btn ">Privacy Policy</button>
         </div>
-    </footer>
+    </footer> */}
 	<Footer />
     </>
   )

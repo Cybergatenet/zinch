@@ -9,6 +9,7 @@ import './assets/css/bootstrap.min.css'
 import Home from './pages/Home/Home';
 import ErrorPage from './pages/Error/ErrorPage';
 import Slide from './components/Sliders/Slide'
+import Login from './pages/Login/Login';
 
 
 function App() {
@@ -17,8 +18,8 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/slide" element={<Slide />} />
-        {/* <Route path="/login" element={<Login />} />
-        <Route path="/account" element={<CreateAccount />} /> */}
+        <Route path="/login" element={<Login />} />
+        {/* <Route path="/account" element={<CreateAccount />} /> */}
 
         {/* 
         <Route path="/contact" element={<Contact />} />
@@ -29,6 +30,7 @@ function App() {
         <Route path="/passwordreset" element={<Fundraisedetails />} />*/}
 
         <Route path="*" element={<ErrorPage/>} /> 
+        <Route path="/auth/login" element={<ErrorPage/>} /> 
       </Routes>   
     </BrowserRouter>             
   );
