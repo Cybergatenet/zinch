@@ -43,11 +43,11 @@ function Sliders() {
             infinite={true}
             responsive={responsive}
             autoPlay={true}
-            autoPlaySpeed={3000}
-            customTransition="all .5"
+            autoPlaySpeed={4000}
+            customTransition="all 1s"
             transitionDuration={1000}
             >
-                <div className="card shadow-sm mx-2" style={{ minHeight: "460px", maxHeight: "460px", height: "460px", border: "1px solid rgba(0,0,0,0.3)", boxShadow: "0px 2px 2px rgba(0,0,0,0.3)", borderRadius: "10px" }}>
+                <div className="card shadow-sm" style={{ minHeight: "460px", maxHeight: "460px", height: "460px", maxWidth: '350px', border: "1px solid rgba(0,0,0,0.3)", boxShadow: "0px 2px 2px rgba(0,0,0,0.3)", borderRadius: "10px" }}>
                     <div className="img">
                         <img src={apple1} height="200px" alt="error image" />
                     </div>
@@ -61,7 +61,7 @@ function Sliders() {
                     </div>
                 </div>
 
-                <div className="card shadow-sm mx-2" style={{ minHeight: "460px", maxHeight: "460px", height: "460px", borderRadius: "10px", border: "1px solid rgba(0,0,0,0.3)", boxShadow: "0px 2px 2px rgba(0,0,0,0.3)" }}>
+                <div className="card shadow-sm" style={{ minHeight: "460px", maxHeight: "460px", height: "460px",maxWidth: '350px', borderRadius: "10px", border: "1px solid rgba(0,0,0,0.3)", boxShadow: "0px 2px 2px rgba(0,0,0,0.3)" }}>
                     <div className="img">
                         <img src={apple2} height="200px" alt="error image" />
                     </div>
@@ -75,7 +75,7 @@ function Sliders() {
                     </div>
                 </div>
 
-                <div className="card shadow-sm mx-2" style={{ minHeight: "460px", maxHeight: "460px", height: "460px", border: "1px solid rgba(0,0,0,0.3)", boxShadow: "0px 2px 2px rgba(0,0,0,0.3)", borderRadius: "10px" }}>
+                <div className="card shadow-sm" style={{ minHeight: "460px", maxHeight: "460px", height: "460px", maxWidth: '350px', border: "1px solid rgba(0,0,0,0.4)", boxShadow: "0px 2px 2px rgba(0,0,0,0.3)", borderRadius: "10px" }}>
                     <div className="img">
                         <img src={muchroom} height="200px" alt="error image" />
                     </div>
@@ -89,7 +89,7 @@ function Sliders() {
                     </div>
                 </div>
 
-                <div className="card shadow-sm mx-2" style={{ minHeight: "460px", maxHeight: "460px", height: "460px", border: "1px solid rgba(0,0,0,0.3)", boxShadow: "0px 2px 2px rgba(0,0,0,0.3)", borderRadius: "10px" }}>
+                <div className="card shadow-sm" style={{ minHeight: "460px", maxHeight: "460px", height: "460px", maxWidth: '350px', border: "1px solid rgba(0,0,0,0.3)", boxShadow: "0px 2px 2px rgba(0,0,0,0.3)", borderRadius: "10px" }}>
                     <div className="img">
                         <img src={mango} height="200px" alt="error image" />
                     </div>
@@ -115,12 +115,12 @@ function Sliders() {
             infinite={true}
             responsive={responsive}
             autoPlay={true}
-            autoPlaySpeed={3000}
-            customTransition="all .5"
-            transitionDuration={500}
+            autoPlaySpeed={4000}
+            customTransition="all 1s"
+            transitionDuration={1000}
             >
                 {issues.map((issue, index) => 
-                    <div key={issue.id} className="card shadow-sm mx-2" style={{ minHeight: "450px", maxHeight: "450px", height: "450px", border: "px", borderRadius: "10px" }}>
+                    <div key={issue.id} className="card shadow-sm" style={{ minHeight: "450px", maxHeight: "450px", height: "450px", border: "px", borderRadius: "10px" }}>
                         <div className="img">
                             <img src={'./uploads/'+issue.avatar} alt={issue.avatar} />
                         </div>

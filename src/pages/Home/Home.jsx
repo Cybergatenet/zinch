@@ -134,9 +134,9 @@ function Home() {
 		</section>
 
 
-		<div className="lorem text-center text-white bg-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quisquam non, dignissimos incidunt pariatur voluptatem ipsa. Odit modi provident odio ipsa numquam recusandae rem eius aliquid quo. Expedita, repellendus assumenda.</div>
+		{/* <div className="lorem text-center text-white bg-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quisquam non, dignissimos incidunt pariatur voluptatem ipsa. Odit modi provident odio ipsa numquam recusandae rem eius aliquid quo. Expedita, repellendus assumenda.</div> */}
 
-        <section>
+        {/* <section>
             <div className="container d-lg-flex">
                 <div className="shape d-lg-flex p-4 my-4 border shadow">
                     <img className='img' src={img1} alt={img1} />
@@ -150,7 +150,7 @@ function Home() {
                     <img className='img' src={img2} alt={img2} />
                 </div>
             </div>
-        </section>
+        </section> */}
     
 
     {/* <section>

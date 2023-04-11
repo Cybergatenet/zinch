@@ -1,10 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import logo from '../../assets/images/logo2.png'
 
 function Navbar() {
   return (
-    <header id="header">
-        <h1><Link to={"/"}>Zinch</Link></h1>
+    <header id="header" style={{ position: "sticky", top: '0', left: '0' }}>
+        <h1><Link to={"/"}> Zinch</Link></h1>
+        {/* <img src={logo} width={'5px'} height={'50px'} alt="logo" /> */}
         <nav id="nav">
             <ul>
                 <li><Link to={'/'}><span className="glyphicon glyphicon-home"></span> Home</Link></li>

@@ -26,9 +26,9 @@
 .slider .card {
   display: block;
   /* flex: 1; */
-  margin: 10px auto;
+  /* margin: 10px auto; */
   width: 100%;
-  /* max-width: 300px; */
+  /* max-width: 350px; */
   max-width: 330px;
   background-color: white;
   border-radius: 5px;
